@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(100, 107, 114);
+}
+
+.container {
+  position: absolute;
+  width: 400px;
+  height: 428px;
+  background-color: rgba(0, 0, 0, 80);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.header {
+  position: relative;
+}
+
+.left-icon {
+  position: absolute;
+  top: 13px;
+  left: 10px;
+  color: orange;
+}
+
+.header h3 {
+  position: absolute;
+  top: 10px;
+  left: 41px;
+}
+
+.header p {
+  position: absolute;
+  top: 28px;
+  left: 41px;
+}
+
+.right-icon {
+  position: absolute;
+  top: 14px;
+  right: 10px;
+  font-size: 23px;
+  color: gray;
+}
+
+.post-image {
+  position: absolute;
+  top: 54px;
+}
+
+.post-icons {
+  position: absolute;
+  bottom: 143px;
+  left: 6px;
+}
+
+.post-comments {
+  position: absolute;
+  bottom: 7px;
+  left: 6px;
+  font-size: 17px;
+}
+
+.likes {
+  margin-bottom: 5px;
+}
+
+.size-mod {
+  font-size: 23px;
+}
+
+.bookmark {
+  position: absolute;
+  right: -310px;
+}
+
+.icon-red {
+  color: red;
+  transition: all 0.7s;
+}
+
+.icon-green {
+  color: green;
+}
+
+.icon-blue {
+  color: blue;
+}
+
+.icon-purple {
+  color: gray;
+}
